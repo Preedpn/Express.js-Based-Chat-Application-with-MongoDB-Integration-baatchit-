@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e2e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Chat Container */
+.chat-container, .new-chat-container {
+    width: 90%;
+    max-width: 500px;
+    background-color: #282a36;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Headings */
+h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input Fields */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    background-color: #44475a;
+    color: #ffffff;
+    resize: none;
+}
+
+/* Buttons */
+button {
+    background-color: #50fa7b;
+    color: #282a36;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #40c867;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .chat-container, .new-chat-container {
+        width: 100%;
+        padding: 15px;
+    }
+}
